@@ -1,0 +1,132 @@
+body {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-image: url(images/City-View.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+}
+
+#header {
+    background: rgba(77, 138, 188, 0.6);
+    color: #ffffff;
+    width: 334px;
+    height: 42px;
+    margin-top: 100px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    font-family: ubuntu, Helvetica, sans-serif;
+    padding: 4px 18px;
+    
+}
+
+#subheader {
+    background: rgba(109, 103, 79, 0.6);
+    border-radius: 10px;
+    margin-top: 70px;
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px 30px;
+    font-family: ubuntu, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-style: normal;
+    
+    
+}
+
+#activities {
+    background-color: #A88B6E;
+    text-align: center;
+ 
+}
+
+#activity-boxes {
+    display: flex;
+    justify-content: center;
+
+}
+#activities-header {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+#headshot {
+    width: 180px;
+    margin: auto; 
+    border-radius: 10px; 
+}
+
+#card-text {
+    color: #A88B6E;
+    font-size: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    
+}
+
+.card {
+    background-color: #4D8ABC;
+    width: 375px;
+    height: 200px;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: space-around;
+    padding: 20px; 
+}
